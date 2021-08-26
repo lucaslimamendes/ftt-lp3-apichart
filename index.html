@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LP3 - API Public</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>População dos estados do EUA</h1>
+    <div class="chart">
+      <canvas id="stateChart" width="100%" height="300"></canvas>
+    </div>
+  </div>  
+
+  <table id="table">
+    <tr>
+      <th>Ano</th>
+      <th>População</th>
+      <th>País</th>
+      <th>Id State</th>
+    </tr>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js" defer></script>
+  <script src="./main.js" defer></script>
+</body>
+</html>
